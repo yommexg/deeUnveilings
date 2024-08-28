@@ -1,4 +1,4 @@
-const video = new URL("../../assets/video-bg.jpg", import.meta.url).href;
+// const video = new URL("../../assets/video-bg.jpg", import.meta.url).href;
 
 const Home = () => {
   return (
