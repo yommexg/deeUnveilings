@@ -4,8 +4,6 @@ import { scrollToTop } from "../../utils/scrollToTop";
 import { FaPhone } from "react-icons/fa";
 
 // const logoImg = new URL("../../assets/logo/inksLogo.png", import.meta.url).href;
-// const logoName = new URL("../../assets/logo/inksname.png", import.meta.url)
-//   .href;
 
 const Navbar: React.FC = () => {
   const location = useLocation();
@@ -74,17 +72,17 @@ const Navbar: React.FC = () => {
 
       <div className="items-center gap-2 hidden lg:flex">
         <FaPhone color="blue" />
-        <a href="tel:+2349035065950" className="font-bold">
+        <a href="tel:+2347059851649" className="font-bold">
           +2347059851649
         </a>
-        <button className="bg-[#1A1A1A] px-4 pb-2 pt-1 rounded-md ml-5">
+        {/* <button className="bg-[#1A1A1A] px-4 pb-2 pt-1 rounded-md ml-5">
           Login
-        </button>
+        </button> */}
       </div>
 
-      <button className="hidden md:block lg:hidden bg-[#1A1A1A] px-4 pb-2 pt-1 rounded-md">
+      {/* <button className="hidden md:block lg:hidden bg-[#1A1A1A] px-4 pb-2 pt-1 rounded-md">
         Login
-      </button>
+      </button> */}
     </header>
   );
 };
