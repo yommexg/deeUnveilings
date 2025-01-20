@@ -92,11 +92,11 @@ const Header = () => {
           </div>
         )}
       </div>
-      <div className="mt-[120px] ml-8 font-montserrat font-[500] text-white">
+      <div className="mt-[120px] ml-8 font-montserrat font-[500] text-white max-w-[250px] md:max-w-max">
         <h1 className="text-[45px] md:text-[54px] font-[600]">
           DEE UNVEILING <span className="text-[#D13D1F]">STUDIOS</span>
         </h1>
-        <p className="max-w-[600px] text-lg mt-5">
+        <p className="md:max-w-[600px] text-lg mt-5">
           The creative hub for capturing stunning photos and videos, offering
           professional equipment, versatile setups, and expert services to bring
           your vision to life.
