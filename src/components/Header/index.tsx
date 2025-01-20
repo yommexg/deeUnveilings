@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { FaBars } from "react-icons/fa";
-import { FaTimes } from "react-icons/fa"; // For close icon
+import { FaTimes } from "react-icons/fa";
 
 const headerbg = new URL("../../assets/video-bg.jpg", import.meta.url).href;
 const logo = new URL("../../assets/logo.png", import.meta.url).href;
@@ -15,7 +15,7 @@ const Header = () => {
 
   const handleSetActiveLink = (link: string) => {
     setActiveLink(link);
-    setIsMenuOpen(false); // Close menu when a link is clicked
+    setIsMenuOpen(false);
   };
 
   return (

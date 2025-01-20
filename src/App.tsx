@@ -14,7 +14,7 @@ import {
 
 function App() {
   return (
-    <div>
+    <div className="bg-black text-white font-montserrat">
       <Header />
       <About />
       <Portfolio />
