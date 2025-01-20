@@ -27,7 +27,7 @@ const Header = () => {
       }}
     >
       <div>
-        <div className="flex flex-row justify-between items-center ml-5 py-1">
+        <div className="flex flex-row justify-between items-center ml-2 py-1">
           <img src={logo} className="w-[112px] h-[83px] p-2" alt="Logo" />
 
           {/* Desktop Nav */}
@@ -92,7 +92,7 @@ const Header = () => {
           </div>
         )}
       </div>
-      <div className="mt-[120px] ml-8 font-montserrat font-[500] text-white max-w-[250px] md:max-w-max">
+      <div className="mt-[50px] md:mt-[120px] ml-5 font-montserrat font-[500] text-white max-w-[250px] md:max-w-max">
         <h1 className="text-[45px] md:text-[54px] font-[600]">
           DEE UNVEILING <span className="text-[#D13D1F]">STUDIOS</span>
         </h1>
