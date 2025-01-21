@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className="min-h-screen flex justify-ceter items-end flex-col md:px-8 px-4 pr-20  md:py-[300px]"
+      className="min-h-screen flex justify-ceter items-end flex-col md:px-8 px-4 pr-20  md:pt-[350px] md:pb-[150px]"
     >
       <div className="w-full flex flex-row items-center justify-between gap-4 md:gap-10 relative">
         {/* Animated Image 1 */}
